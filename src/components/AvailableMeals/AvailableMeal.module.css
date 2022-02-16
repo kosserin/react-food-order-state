@@ -1,0 +1,26 @@
+.available-meal {
+  display: flex;
+  justify-content: space-between;
+  color: #fefefe;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.available-meal:last-of-type {
+  border-bottom: none;
+}
+
+.available-meal h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.available-meal p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.875rem;
+}
+
+.available-meal h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.25rem;
+}
