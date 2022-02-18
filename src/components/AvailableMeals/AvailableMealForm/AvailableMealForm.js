@@ -12,7 +12,7 @@ const AvailableMealForm = (props) => {
   }
 
   return (
-    <form onSubmit={amountFormHandler}>
+    <form className={styles['available-meal__form']} onSubmit={amountFormHandler}>
     <div className={styles['form-group']}>
       <label>Amount:</label>
       <input ref={amountInputRef} type="number" min="1" max="5" defaultValue = "1" />  

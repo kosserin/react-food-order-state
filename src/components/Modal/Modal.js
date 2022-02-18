@@ -30,7 +30,7 @@ const Modal = (props) => {
            </div>
            <div className={styles.buttons}>
              <button onClick={props.onHideModal}><FaTimesCircle /><span>Close</span></button>
-             <button disabled={props.selectedMeals.length === 0} onClick={() => {console.log('Ordered!')}}><FaCheckCircle /><span>Order</span></button>
+             <button disabled={props.selectedMeals.length === 0} onClick={props.onShowForm}><FaCheckCircle /><span>Order</span></button>
            </div>
         </div>
     </React.Fragment>

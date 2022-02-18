@@ -1,0 +1,128 @@
+.form-order__background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background-color: rgba(5, 25, 55, 0.5);
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-order {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+  padding: 2rem;
+  background-color: rgba(239, 239, 239, 0.9);
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px rgba(5, 25, 55, 0.25);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-order .form-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.form-order .form-group input {
+  background: rgba(5, 25, 55, 0.5);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(5, 25, 55, 0.25);
+  height: 1.7rem;
+  min-width: 200px;
+  padding-left: 1rem;
+}
+
+.form-order .total-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form-order .total-amount h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.form-order .total-amount h3 {
+  color: rgba(5, 25, 55, 1);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form-order .buttons {
+  padding-top: 10px;
+  border-top: 2px solid rgba(5, 25, 55, 1);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.form-order .buttons button {
+  height: 2.2rem;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 20px;
+  color: rgba(5, 25, 55, 1);
+  border: none;
+  outline: none;
+  transition: 250ms ease-out;
+}
+
+.buttons button span {
+  font-size: 0.875rem;
+}
+
+.buttons button:first-of-type {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.buttons button:first-of-type:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.buttons button:last-of-type {
+  color: #fefefe;
+  background-color: rgba(5, 25, 55, 1);
+}
+
+.buttons button:last-of-type:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.buttons button:disabled {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.buttons button:disabled:hover {
+  cursor: not-allowed;
+  background-color: gray;
+}
+
+.form-order > span {
+  color: red;
+}
+
+.form-order .form-group input.invalid {
+  background-color: rgba(200, 0, 0, 0.7);
+}
+
+.form-order .form-group label.invalid {
+  color: rgba(200, 0, 0, 1);
+}
