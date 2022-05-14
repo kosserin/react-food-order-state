@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# React application for ordering meals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React
+## Firebase API
+## Custom Hooks
 
-## Available Scripts
+React project for ordering meals. Meal items are fetched from firebase database, and user can select meal he wants and amount of them. By clicking on Orders button modal pops-up with selected meals, their amount and total price. On the next step by clicking Order button, another modal with form for credit card shows up and the most basic validation is added. If everything is alright, meals are ordered and form informations are saved, just as ordered meals.
 
-In the project directory, you can run:
+Live preview is available at:
+https://kosserin.github.io/react-food-order-state/
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Screenshot 2022-05-14 at 14-10-05 React App](https://user-images.githubusercontent.com/71221268/168425109-a6856dab-4a3f-42b5-9c95-dbe84f5f36f1.png)
+![Screenshot 2022-05-14 at 14-10-29 React App](https://user-images.githubusercontent.com/71221268/168425111-eea38ae4-f756-4902-83ba-3bb38879ff9d.png)
+![Screenshot 2022-05-14 at 14-11-20 React App](https://user-images.githubusercontent.com/71221268/168425118-b75117a7-f6c2-4eb8-8da3-2824769cf986.png)
